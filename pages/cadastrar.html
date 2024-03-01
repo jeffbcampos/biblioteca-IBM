@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar Livro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header class="cabecalho" id="cabecalho">
+    <a href="../index.html">
+      <img class="cabecalho_img" src="../assets/logo.png" alt="">
+    </a>
+    <nav>
+      <ul class="cabecalho_lista">
+        <li>
+          <a class="cabecalho_lista_item" href="../index.html">Home</a>
+        </li>
+        <li>
+          <a class="cabecalho_lista_item" href="./cadastrar.html">Cadastrar</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="container_formulario">
+    <h1 class="container_formulario_titulo">Cadastro de Livro</h1>
+    <form class="formulario" id="formLivro" data-form>
+      <div class="formulario_div">
+        <label for="titulo">Título:</label>
+        <input placeholder="Título do livro" type="text" id="titulo" name="titulo">
+      </div>
+      <div class="formulario_div">
+        <label for="autor">Autor:</label>
+        <input placeholder="Autor do livro" type="text" id="autor" name="autor">
+      </div>
+      <div class="formulario_div">
+        <label for="anoPublicacao">Ano de Publicação:</label>
+        <input placeholder="Ex: 2023" type="number" id="anoPublicacao" name="anoPublicacao">
+      </div>
+      <div class="formulario_div">
+        <label for="exemplares">Número de Exemplares:</label>
+        <input placeholder="Ex: 10" type="number" id="exemplares" name="exemplares">
+      </div>
+      <button class="formulario_botao">Cadastrar Livro</button>
+    </form>
+  </section>
+
+  <footer class="rodape">
+    <p class="rodape_texto">Site simulação para seleção da IBM</p>
+    <p class="rodape_credito">Desenvolvido por: <span>Jeferson Borges</span></p>
+  </footer>
+  <script src="../js/cadastrar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+  border-top: 1px solid #120907;
+  margin-top: 100px;
+}
+
+.rodape_texto {
+  font-size: 20px;
+}
+.rodape_credito {
+  font-style: italic;
+}
+.rodape_credito span {
+  color: #232237;
+  font-weight: bold;
+}

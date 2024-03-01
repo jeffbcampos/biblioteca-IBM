@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <title>Biblioteca IBM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="cabecalho" id="cabecalho">
+    <a href="./index.html">
+      <img class="cabecalho_img" src="./assets/logo.png" alt="">
+    </a>
+    <nav>
+      <ul class="cabecalho_lista">
+        <li>
+          <a class="cabecalho_lista_item" href="#">Home</a>
+        </li>
+        <li>
+          <a class="cabecalho_lista_item" href="./pages/cadastrar.html">Cadastrar</a>
+        </li>
+        <li>
+          <a class="cabecalho_lista_item" href="./pages/reservas.html">Reservas</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="container_titulo">Biblioteca IBM</h1>
+    <h2 class="container_subtitulo">Livros em estoque</h2>
+    <section class="container_sessao">
+    </section>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" data-cancelar>&times;</span>
+      <input type="hidden" id="livroId" name="livroId"> <!-- Campo oculto para armazenar o ID do livro -->
+      <label for="usuario">Usuário:</label>
+      <input type="text" id="usuario" name="usuario" required>
+      <label for="dataRetirada">Data de Retirada:</label>
+      <input type="date" id="dataRetirada" name="dataRetirada" required>
+      <label for="dataEntrega">Data de Entrega:</label>
+      <input type="date" id="dataEntrega" name="dataEntrega" readonly>
+      <!-- Campo somente leitura para a data de entrega -->
+      <div class="div_botoes">
+        <button class="modal_botao" id="cancelar" data-cancelar>Cancelar</button>
+        <button class="modal_botao" id="confirmar" data-confirmar>Confirmar</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="modalExclusao" class="modal">
+    <div class="modal-content">
+      <p>Deseja realmente excluir este livro?</p>
+      <input type="hidden" id="livroIdExclusao" name="livroIdExclusao"> <!-- Campo oculto para armazenar o ID do livro -->
+      <button id="confirmarExclusao" data-confirmar>Confirmar</button>
+      <button id="cancelarExclusao" data-cancelar>Cancelar</button>
+    </div>
+  </div>
+
+
+  <footer class="rodape">
+    <p class="rodape_texto">Site simulação para seleção da IBM</p>
+    <p class="rodape_credito">Desenvolvido por: <span>Jeferson Borges</span></p>
+  </footer>
+  
+  <script src="./js/main.js"></script>
+  <script src="./js/reserva.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+.card_livro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #999dde;
+  border-radius: 20px;
+  padding: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.card_livro:hover {
+  transform: scale(1.05);
+}
+
+.card_livro_infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.card_livro_titulo {
+  font-size: 36px;
+  text-align: center;
+}
+.card_livro_autor {
+  font-size: 24px;
+  font-style: italic;
+}
+.card_livro_icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+.card_livro_icon {
+  max-width: 40px;
+  cursor: pointer;
+  background-color: #575887;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+.card_livro_icon:hover {
+  transform: scale(1.1);
+}
+
+.card_reserva {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  flex-direction: column;
+  gap: 10px;
+  background-color: #999dde;
+  border-radius: 20px;
+  padding: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.card_reserva:hover {
+  transform: scale(1.05);
+}
+
+.card_reserva_infos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.card_reserva_titulo {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Playpen Sans", cursive;
+}
+
+.card_reserva_usuario,
+.card_reserva_data_inicio,
+.card_reserva_data_fim {
+  font-size: 1.0rem;
+  color: #0b0b16;
+  font-family: "Playpen Sans", cursive;
+}
+
+/* .card_reserva_icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+} */
+
+/* .card_reserva_icon {
+  max-width: 40px;
+  cursor: pointer;
+  background-color: #575887;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.card_reserva_icon:hover {
+  transform: scale(1.1);
+} */

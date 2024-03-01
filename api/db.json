@@ -1,0 +1,70 @@
+{
+  "livros": [
+    {
+      "id": "1",
+      "titulo": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "exemplares": 10
+    },
+    {
+      "id": "3",
+      "titulo": "O Senhor dos Anéis",
+      "autor": "J.R.R. Tolkien",
+      "exemplares": "15"
+    },
+    {
+      "id": "4",
+      "titulo": "Harry Potter",
+      "autor": "J.K. Rowling",
+      "exemplares": 12
+    },
+    {
+      "id": "5",
+      "titulo": "Carrie a Estranha",
+      "autor": "Stephen King",
+      "exemplares": 7
+    },
+    {
+      "id": "6",
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "exemplares": 8
+    },
+    {
+      "id": "7",
+      "titulo": "A Metamorfose",
+      "autor": "Franz Kafka",
+      "exemplares": 6
+    },
+    {
+      "id": "9",
+      "titulo": "Crime e Castigo",
+      "autor": "Fiódor Dostoiévski",
+      "exemplares": 5
+    },
+    {
+      "id": "10",
+      "titulo": "A Revolução dos Bichos",
+      "autor": "George Orwell",
+      "exemplares": 7
+    },
+    {
+      "id": "11",
+      "titulo": "O Pequeno Príncipe",
+      "autor": "Antoine de Saint-Exupéry",
+      "exemplares": 11
+    },
+    {
+      "id": "12",
+      "titulo": "Cem Anos de Solidão",
+      "autor": "Gabriel García Márquez",
+      "exemplares": 8
+    },
+    {
+      "id": "c7d7",
+      "titulo": "Livro Teste",
+      "autor": "Abel",
+      "exemplares": "2"
+    }
+  ]
+}

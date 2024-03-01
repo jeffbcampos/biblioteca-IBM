@@ -1,0 +1,26 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  border-bottom: 1px solid #120907;
+}
+.cabecalho_img {
+  max-width: 150px;
+}
+
+.cabecalho_lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.cabecalho_lista_item {
+  font-size: 36px;
+  color: #232237;
+}
+
+.cabecalho_lista_item:hover {
+  color: #7e7587;
+}
